@@ -1,0 +1,239 @@
+
+
+        *{
+            margin: 0;
+            padding: 0;
+          
+        }
+
+       
+        body{
+        background-color:rgb(9, 9, 9);
+        color: white;
+        }
+        nav{
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            height: 70px;
+            background-color: rgb(1, 1, 13);
+            display: fixed;
+        }
+        #abt{
+            display: none;
+
+        }
+        #abt:active{
+            display: block;
+        }
+         .left{
+     text-transform: uppercase;
+     font-size: large;
+        }
+        nav ul{
+            margin: 0;
+            padding: 1px;
+            display:flex;
+            justify-content:space-around;
+        
+            color: rgb(43, 43, 220);
+        }
+        nav ul li{
+        justify-content:space-between;
+        list-style: none;
+        margin: 0 20px;
+        }
+        nav ul li a{
+            text-decoration: none;
+            color:white;
+        }
+        nav ul li a:hover{
+            color: chartreuse;
+            font-size: large;
+        }
+
+       main {
+            display:flex;
+            justify-content: space-around;
+     align-items: center;
+    
+        }
+        .firstSection{
+            display: flex;
+            justify-content: space-around;
+        }
+        .leftSection{
+          font-style: oblique;
+            font-size: xx-large;
+            border: 1rem;
+            margin-top: 50px;
+            margin-left: 62px;
+            width: 27rem;
+        }
+        .rightSection {
+          
+            margin-top: 40px;
+    width: 30%;
+  height: 22%;  
+  border-radius: 11rem;
+      
+      }
+      #personal{
+        margin-top: 2px;
+        width: 85%;
+        height: 36%;
+        border-radius: 76rem;
+      }
+
+        .secondsection
+        {
+            display: flex;
+            justify-content: space-around;
+        }
+
+        
+
+       
+        
+       
+         .box{
+            background: white;
+            width: 80vw;
+            height: 2px;
+            margin: 50px 0;
+            display: flex;
+         }
+
+         .vertical{
+            height: 90px;
+            width: 1px;
+            background-color: aliceblue;
+            margin: 0 100px;
+         }
+
+         .vertical-title{
+           width: 2px;
+        display: relative;
+        top: -120px;
+         }
+
+         .vertical-desc{
+            width: 20px;
+            top: 30px;
+
+         }
+
+         .img-top{
+
+            width:2px;
+            height: 5px;
+
+         }
+         
+.link{
+
+    height: 8rem;
+    width: 80rem;
+    display: flex;
+  
+    justify-content:space-evenly;
+ margin-right: 0px;
+
+}
+.github img{
+    margin-top: 40px;
+  width: 20%;
+  height: 20%;
+  border-radius: 30px;
+
+
+}
+.linkedIn img{
+    margin-top: 40px;
+    width: 30%;
+  height: 30%;
+  border-radius: 30px;
+}
+
+.instagram  img{
+    margin-top: 40px;
+    width: 30%;
+  height: 30%;  
+  border-radius: 30px;
+    
+}
+
+.facebook  img{
+    margin-top: 40px;
+    width: 30%;
+  height: 30%;
+  border-radius: 30px;
+
+
+} 
+.three{
+    margin: 12rem 31rem 7rem 5rem;
+   
+    
+}
+
+#frst{
+    margin: 90px 20px ;
+}  
+
+
+ #scnd{
+    margin: 90px 209px ;
+}
+
+#third{
+    margin: 90px 349px ;
+}
+/* #certificate{
+    size: 8rem;
+} */
+
+
+         footer{
+            background-color: dodgerblue;
+    margin-top:0px;
+    border: 1px;
+      width: 94rem;
+    height: 59rem;
+    display:block;
+}
+.certificate1{
+    padding-right: 20rem;
+    margin: 6rem 3rem;
+}
+
+#cer1{
+size: 20%;
+}
+
+.certificate{
+    background-color: rgb(16, 15, 15);
+    
+}
+.choose animate-box{
+    padding-right: 20px;
+}
+
+.skills{
+    background-color: black;
+
+}
+#heading{
+  margin-left: 40rem;
+}
+.f{
+
+    height: 29rem;
+    padding: 0px;
+     padding-top: 40px;
+background-color: rgb(238, 105, 10);
+}
+.col-md-8 {
+    text-align: right;
+    padding: 70px;
+}
